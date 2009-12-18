@@ -1,0 +1,58 @@
+/* Snow by Travis Dunn is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. */
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 325px;
+	word-wrap: break-word;
+}
+
+#main {
+	position:relative;
+	background: rgba(230,230,230, 0.9);
+	border: 1px solid rgba(160,160,160, 0.9);
+	overflow:hidden;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+#info {
+	border-left:1px solid rgba(160,160,160, 0.9);
+	padding:10px;
+	margin-left:55px;
+}
+
+#title {
+	color: #444;
+	font: bold 13px "Helvetica Neue";
+	line-height: 17px;
+	-webkit-animation-duration: 0.3s;
+	-webkit-animation-name: 'fadeIn';
+}
+
+#text {
+	color: #666;
+	font: normal 11px "Helvetica Neue";
+	line-height: 16px;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-name: 'fadeIn';
+}
+
+#icon {
+	height: 34px;
+	left: 10px;
+	position: absolute;
+	top: 10px;
+	-webkit-transition: 0.3s;
+	-webkit-animation-name: 'fadeIn';
+	width: 34px;
+}
+
+@-webkit-keyframes 'fadeIn' {0% {
+	left: 30px;
+	opacity: 0;
+}
+100% {
+	left: 10px;
+	opacity: 1;
+}}
