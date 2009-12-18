@@ -27,10 +27,10 @@
 	<key>GrowlPluginAuthor</key>
 	<string>Travis Dunn</string>
 	<key>GrowlHasShadow</key>
-	<true/>
+	<false/>
 	<key>GrowlPaddingX</key>
-	<real>10.0</real>
+	<real>7.0</real>
 	<key>GrowlPaddingY</key>
-	<real>10.0</real>
+	<real>7.0</real>
 </dict>
 </plist>
