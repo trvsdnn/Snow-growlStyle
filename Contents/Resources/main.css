@@ -40,13 +40,12 @@ body {
 }
 
 #icon {
-	height: 34px;
-	left: 10px;
+	height: 128px;
+	left: -50px;
 	position: absolute;
-	top: 10px;
-	-webkit-transition: 0.3s;
-	-webkit-animation-name: 'fadeIn';
-	width: 34px;
+	top: -30px;
+	opacity:0.3;
+	width: 128px;
 }
 
 @-webkit-keyframes 'fadeIn' {0% {
